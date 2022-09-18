@@ -66,7 +66,7 @@ function drumSound(key) {
             kickBass.play()
             break;
         default:
-            console.log("buttonValue")
+            console.log("default")
     }
 }
 

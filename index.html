@@ -3,14 +3,19 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Drum Kit</title>
+  <meta content="width=device-width, initial-scale=1" name="viewport" />
+  <title>Max's Drum Kit</title>
   <link rel="stylesheet" href="css/styles.css">
   <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
+  <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
+<link rel="manifest" href="images/favicon/site.webmanifest">
 </head>
 
 <body>
 
-  <h1 id="title">Max's Drum 🥁 Kit</h1>
+  <h1 id="title">Max's Drum Kit</h1>
   <div class="set">
     <button class="w drum">w</button>
     <button class="a drum">a</button>
@@ -23,11 +28,16 @@
 
 
   <footer>
-    Made with ❤️ 
+    <div class="footer">
+      <small id="sm">&#169;  maxvhanamane. All rights reserved.</small>
+    </div>
   </footer>
 
   <script src="js/main.js">
 
+  </script>
+  <script>
+   document.getElementById("sm").innerHTML = `&#169; ${new Date().getFullYear()}  maxvhanamane. All rights reserved`
   </script>
 
 </body>

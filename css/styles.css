@@ -1,6 +1,6 @@
 body {
   text-align: center;
-  background-color: #283149;
+  background-color: #1f1f38;
 }
 
 h1 {
@@ -11,50 +11,54 @@ h1 {
 
 }
 
-footer {
-  color: #DBEDF3;
-  font-family: sans-serif;
-}
 
 .w {
 
-background-image: url("../images/tom1.png");
+background-image: url("../images/drum1.png");
+background-size:140px 140px;
 
 }
 
 .a {
-
-background-image: url("../images/tom2.png");
+  background-image: url("../images/drum2.webp");
+  background-size:130px 130px;
+  
 
 }
 
 .s {
 
-background-image: url("../images/tom3.png");
+  background-image: url("../images/drum3.png");
+  background-size:140px 140px;
 
 }
 
 .d {
 
-background-image: url("../images/tom4.png");
-
+  background-image: url("../images/drum4.png");
+  background-size:140px 140px;
 }
 
 .j {
 
-background-image: url("../images/crash.png");
+background-image: url("../images/crash.jpg");
+background-size:140px 140px;
 
 }
 
 .k {
 
-background-image: url("../images/kick.png");
+  background-image: url("../images/kick.jpg");
+  background-size:180px 140px;
+  
 
 }
 
 .l {
 
-background-image: url("../images/snare.png");
+  background-image: url("../images/snare.jpg");
+  background-size:140px 140px;
+  
 
 }
 
@@ -73,7 +77,7 @@ background-image: url("../images/snare.png");
 .drum {
   outline: none;
   border: 10px solid #404B69;
-  font-size: 5rem;
+  font-size: 4rem;
   font-family: 'Arvo', cursive;
   line-height: 2;
   font-weight: 900;
@@ -86,4 +90,33 @@ background-image: url("../images/snare.png");
   text-align: center;
   margin: 10px;
   background-color: white;
+}
+
+.set{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+
+}
+.footer{
+  color: gray;
+  font-size: 1.4rem;
+
+font-family: sans-serif;
+
+}
+/* Media Queries For (small Devices)*/
+@media screen and (max-width: 767px) {
+  h1 {
+    font-size: 2rem;
+   margin-top: 1rem;
+  
+  }
+  .footer{
+    font-size: 1rem;
+
+  
+  }
 }
