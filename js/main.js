@@ -54,12 +54,12 @@ function drumSound(key) {
             tom4.play()
             break;
         case "j":
-            snare = new Audio("sounds/snare.mp3")
-            snare.play()
-            break;
-        case "k":
             crash = new Audio("sounds/crash.mp3")
             crash.play()
+            break;
+        case "k":
+            snare = new Audio("sounds/snare.mp3")
+            snare.play()
             break;
         case "l":
             kickBass = new Audio("sounds/kick-bass.mp3")
